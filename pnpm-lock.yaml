@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   next:
     specifier: latest
@@ -11,8 +15,8 @@ dependencies:
     specifier: latest
     version: 18.2.0(react@18.2.0)
   replicate:
-    specifier: ^0.9.0
-    version: 0.9.0
+    specifier: ^0.25.0
+    version: 0.25.0
 
 devDependencies:
   '@types/node':
@@ -1837,8 +1841,9 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /replicate@0.9.0:
-    resolution: {integrity: sha512-UZ9Nz8z4GnXvWSFWvexW+rEp7s9lQZvkHEsLsPCmIPqt2B/uLQ5F7vC69d75ADWe6TK4XXZgL/Ru/tZVza6Img==}
+  /replicate@0.25.0:
+    resolution: {integrity: sha512-drD+K9xwoSldIrU/zOg+CPu5kXMUhTkXyJEA3GUozxQ67aqftvDhyYYjiBD2zaCb1GKA4+w/zIc6+ITV5OlkKQ==}
+    engines: {git: '>=2.11.0', node: '>=18.0.0', npm: '>=7.19.0', yarn: '>=1.7.0'}
     dev: false
 
   /resolve-from@4.0.0:
